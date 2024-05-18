@@ -1,1 +1,6 @@
-console.log('Hello, java-enum-ts!');
+import { createEnum } from './enum';
+
+(() => {
+	const enumType = createEnum(['yes', 'no', 'maybe']);
+	console.log(enumType);
+})();
