@@ -1,0 +1,2 @@
+# java-enum-ts
+TypeScriptでJavaのEnumみたいなことをする
